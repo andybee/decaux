@@ -1,0 +1,35 @@
+{
+  "name": "decaux",
+  "description": "Minimalist framework to enforce some of the structures of a C-like language",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andybee/decaux",
+  "author": {
+    "name": "Andy Buckingham",
+    "email": "andy@andybee.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andybee/decaux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andybee/decaux/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/andybee/decaux/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "sprintf-js": ">= 0.0.7"
+  },
+  "main": "lib/main.js",
+  "engines": {
+    "node": ">= 0.10.29"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "decaux" : "lib/main.js"
+  }
+}
