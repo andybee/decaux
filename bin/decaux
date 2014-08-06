@@ -3,7 +3,7 @@
 var fs = require('fs');
 var path = require('path');
 
-global.include = require('./include').include;
+global.include = require('../lib/include').include;
 global.sprintf = require('sprintf-js').sprintf;
 
 var argv = process.argv;
