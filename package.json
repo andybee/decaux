@@ -1,7 +1,7 @@
 {
   "name": "decaux",
   "description": "Minimalist framework to enforce some of the structures of a C-like language",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/andybee/decaux",
   "author": {
     "name": "Andy Buckingham",
@@ -20,9 +20,6 @@
       "url": "https://github.com/andybee/decaux/blob/master/LICENSE"
     }
   ],
-  "dependencies": {
-    "sprintf-js": ">= 0.0.7"
-  },
   "main": "bin/decaux",
   "engines": {
     "node": ">= 0.10.29"
