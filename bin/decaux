@@ -3,7 +3,7 @@
 var fs = require('fs');
 var path = require('path');
 
-global.include = require('../lib/include').include;
+global.include = require('../lib/include');
 
 var argv = process.argv;
 var defScript = "./main.js";
