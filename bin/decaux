@@ -12,5 +12,5 @@ if (argv.length < 3 && !fs.existsSync(defaultScript)) {
   throw 'Requires a filename argument (e.g. decaux ' + defaultScript + ') or ' + defaultScript + ' in current directory.';
 }
 
-include((argv.length >= 3) ? argv[2] : defaultScript);
+include((argv.length >= 3) ? argv[2] : defaultScript, process.cwd());
 main(argv.length - 3, argv.slice(3, argv.length));

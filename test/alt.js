@@ -1,0 +1,1 @@
+var alt_value = 'Relative path include test';

@@ -28,5 +28,8 @@
   "preferGlobal": "true",
   "bin": {
     "decaux" : "./bin/decaux"
+  },
+  "dependencies": {
+    "debug": "~0.7.2"
   }
 }
