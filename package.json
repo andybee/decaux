@@ -1,7 +1,7 @@
 {
   "name": "decaux",
   "description": "Minimalist framework to enforce some of the structures of a C-like language",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "homepage": "https://github.com/andybee/decaux",
   "author": {
     "name": "Andy Buckingham",
